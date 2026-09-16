@@ -91,3 +91,7 @@ the repo: the notebook's setup cell builds `data/corpus.json`, `data/dev_qa.json
 `eval/test_qa.json` itself from SQuAD on first run (via `rag/dataset.py`) and caches
 them locally. The split is deterministic (fixed seed), so every participant's held-out 
 `eval/test_qa.json` comes out byte-identical without ever being shipped in the repo.
+
+## Disclaimer
+
+This workshop was built with the help of Claude 🤖
