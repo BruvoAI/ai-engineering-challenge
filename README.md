@@ -11,6 +11,9 @@ is yours to change.
 ## Prerequisites
 
 - Python 3.11+ and [`uv`](https://docs.astral.sh/uv/) installed
+    - For MacOS/Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+  - For Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+  - Note that you might need to restart your terminal for uv install location to be added to PATH
 - [Ollama](https://ollama.com/download) installed, running, with a model pulled:
 
   ```bash
@@ -25,7 +28,7 @@ is yours to change.
 
 ```bash
 git clone <repo-url>
-cd rag-challenge
+cd ai-engineering-challenge
 uv sync
 uv run jupyter lab notebooks/challenge.ipynb
 ```
